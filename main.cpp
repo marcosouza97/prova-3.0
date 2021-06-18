@@ -6,18 +6,19 @@ using namespace std;
 
 int main() {
   
-  tTriangulo lado1,lado2,lado,base3;
+  tTriangulo base, altura, hip,aux;
 
 
   cout << "Digite o lado 1: " <<endl;
-  cin >> lado1.base;
+  cin >> base.lado1;
 
   cout << "Digite o lado 2: " << endl;
-  cin >> lado2.base;
+  cin >> altura.lado2;
 
   cout << "Digite o lado 3: " << endl;
-  cin >> lado3.base
+  cin >> hip.lado3;
 
-  lado.mostraArea(lado1.base, lado2.base);
+  aux.mostraArea(base.lado1, altura.lado2);
+  aux.mostraPerimetro(base.lado1, altura.lado2, hip.lado3);
 
 }

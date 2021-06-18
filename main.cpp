@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
   
-  tTriangulo lado1,lado2,lado;
+  tTriangulo lado1,lado2,lado,base3;
 
 
   cout << "Digite o lado 1: " <<endl;
